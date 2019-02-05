@@ -1,0 +1,15 @@
+$AUTH_TOKEN = 'INSERT AUTH TOKEN HERE';  
+$zoho_api = new Zoho($AUTH_TOKEN);  
+$potential_data = array();  
+//$potential_data['Account Name'] = "ACCOUNT NAME";  
+$potential_data['Potential Name'] = "POTENTIAL NAME";  
+//$potential_data['Amount'] = "20";  
+//$potential_data['Stage'] = "Closed Won";  
+//$potential_data['Potential Owner'] = "info@tesolau.com"; 
+//$new_values['Campaign Source'] = "123456";
+//$new_values['Contact Name'] = "Victoria Ford";  // This is reflect if name is already in contacts field type is Look up
+$new_values['Goals/Outcomes'] = "sandeep1;sandeep2;sandeep44";
+$new_values['Desired Course'] = "10695NAT Certificate IV in TESOL"; // This is reflect if Course is already in database field type is Look up
+$new_values['Sale Enquiry Owner'] = "sandeepchoudhary85@gmail.com";
+$new_values['Special Requirements'] = "sandeep4";
+$new_values['Bachelors Degree (any field)'] = "sandeep10";
